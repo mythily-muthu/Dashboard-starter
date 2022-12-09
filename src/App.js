@@ -1,6 +1,6 @@
 import './App.css'
 import MainDash from './components/MainDash/MainDash';
-//import RightSide from './components/RigtSide/RightSide';
+import RightSide from './components/RightSide/RightSide';
 import Sidebar from './components/Sidebar/Sidebar';
 
 
@@ -10,7 +10,7 @@ function App() {
       <div className="AppGlass">
         {<Sidebar />}
         {<MainDash />}
-
+        {<RightSide />}
       </div>
     </div>
   );
