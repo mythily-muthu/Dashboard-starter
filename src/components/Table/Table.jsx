@@ -32,7 +32,7 @@ const makeStyle = (status) => {
     };
   } else {
     return {
-      background: "#59bfff",
+      background: "#64bff7",
       color: "white",
     };
   }
